@@ -1,5 +1,5 @@
   Snackbar snackbar = Snackbar.make(constraintLayout, "", Snackbar.LENGTH_INDEFINITE);
-                    View customSnackbarView = getLayoutInflater().inflate(R.layout.custom_snake_bar, null);
+                    View customSnackbarView = getLayoutInflater().inflate(R.layout.custom_snackbar, null);
                     snackbar.getView().setBackgroundColor(Color.TRANSPARENT); // Make Snackbar background transparent
                     @SuppressLint("RestrictedApi") Snackbar.SnackbarLayout snackbarLayout = (Snackbar.SnackbarLayout) snackbar.getView();
                     snackbarLayout.addView(customSnackbarView, 0);
